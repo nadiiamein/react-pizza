@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.scss';
 import Header from './components/Header.jsx';
-import Buttom from './components/./Button.jsx';
 
 function App() {
 
@@ -9,7 +8,6 @@ function App() {
   return (
     <div className="wrapper">
     <Header />
-    <Button text="Weiter" />
     <div className="content">
       <div className="container">
         <div className="content__top">
