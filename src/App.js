@@ -1,9 +1,11 @@
 import React from 'react';
 import './App.scss';
-import Header from './Header.jxs';
-import Buttom from './Bitton.jsx';
+import Header from './components/Header.jsx';
+import Buttom from './components/./Button.jsx';
 
 function App() {
+
+
   return (
     <div className="wrapper">
     <Header />
