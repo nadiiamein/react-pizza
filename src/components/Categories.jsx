@@ -1,15 +1,11 @@
 import React from 'react'
 
-function Categories() {
+function Categories({items}) {
     return (
         <div className="categories">
             <ul>
               <li className="active">Alle</li>
-              <li></li>
-              <li>Vegetarisch</li>
-              <li>Grill</li>
-              <li>Schaf</li>
-              <li>Geschlosene</li>
+    {items.map((name) => <li>{name}</li>)}
             </ul>
           </div>
     )
