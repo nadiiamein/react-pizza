@@ -10,8 +10,8 @@ const onSelectItem = (index) => {
     return (
         <div className="categories">
             <ul>
-              <li onClick={() => onSelectItem(null)}>Alle</li>
-    {items.map((name, index) => (
+              <li className={activeItem === null ? 'active' : ''} onClick={() => onSelectItem(null)}>Alle</li>
+    {items && items.map((name, index) => (
     <li
     className={activeItem === index ? 'active' : ''}
     onClick={() => onSelectItem(index)}
