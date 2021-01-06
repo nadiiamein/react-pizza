@@ -1,12 +1,14 @@
 import React from 'react';
+import Header from './Header.jsx';
 
-
+function Button() {
+  return  <button>Add</button>;
+}
 
 function App() {
   return (
-    <div>
-      <h1>React Pizza</h1>
-    </div>
+   <Header/>
+   <Button/>
 
   );
 }
